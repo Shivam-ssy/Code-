@@ -170,3 +170,33 @@ body{
     color: white;
     
 }
+@media screen and (max-width:600px){
+    .content{
+        padding: 50px 0;
+        
+    }
+    .content h1{
+        font-size: 3em;
+    }
+    .cheading{
+        padding: 5em 0;
+    }
+    .bottom{
+        padding: 3.8em 0em;
+    }
+    .page2{
+        padding-top: 5em;
+        height:fit-content;
+    }
+    .about {
+        flex-direction: column;
+        padding-left:0.1em;
+    }
+   
+    .textabout{
+        margin-top: 20px;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+}
